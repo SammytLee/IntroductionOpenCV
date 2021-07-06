@@ -1,8 +1,14 @@
 # IntroductionOpenCV
-Basic OpenCV projects
+Basic OpenCV projects used to get familiar with the OPENCV library
 
-Theses are simple projects done in OpenCV following Muratza's Workshop on youtube.
-The link provided is https://www.youtube.com/watch?v=WQeoO7MI0Bs&t=19s is the source of the 
-walkthrough
-  
-  sa
+##Introduction
+Theses are simple projects done in OpenCV. They are used to simply introduce different functions available in the library.
+
+##Technologies
+Python 3.6
+OpenCV 4.5.1
+
+##Launch
+A webcam may be necessary for some of the projects. Videos and images included come from samples in the OPENCV repository. 
+
+##Features
