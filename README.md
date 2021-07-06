@@ -28,9 +28,9 @@ This function creates a binary mask around the color that in myColor.
 * img is the captured screen
 * myColor is the color of the object in BGR
 * myColorValues are the colors that you want portrayed on the screen.
-### getContours
+#### getContours
 This function creates a box around the object and returns points for the center top of the object.
-### drawOnCanvas
+#### drawOnCanvas
 This function creates a circle at the center top point of the bounding box and draws it on the screen. 
 
 ## Project Status
