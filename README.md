@@ -45,7 +45,43 @@ This project creates different shapes using the built-in OPENCV functions and sh
 ### DetectShapes
 This program uses an algorithm to detect some basic shapes the input image. The image used is called detect_blob and it is from the OPENCV library. It uses an algorithm where it draws contours around an object in the image as long as the area of the image is greater than 500. It uses an approximation of a polygon and the corners found to detect the shape. If the corners = 3, it's a triangle. If the corners = 4, it's a square or rectangle; if the corners > 4, then it's an ellipse. 
 
+### DocumentScanner
+This project uses a webcam to a piece of paper or a note at an angle and warps it such that it looks as if the image is directly under the camera and takes a picture of it. Similar to a document scanner.
+#### preProcessing
+this function changes the colored image to gray scaled and creates a threshold for just the document selected through Canny Edge Detection
+#### getContours
+this function creates a contour around the object scanned. It looks for the biggest area. 
+#### reorder
+This function simply reorders the points such that we can transform the images perspective
+#### getWarp
+This function warps the image such that its perspective seems to be dead on. The image is then slightly cropped to only show the scanned part.
 
+### FaceDetection
+This project uses a Cascade Classifier for face detection. It simply draws a box around what is believed to be a face. The image used is lena from the OPENCV library.
+
+### ImageCroppingAndResizing
+This program crops and resizes images through built-in functions in OPENCV. The image used is starry-night from the OPENCV library. It shows a resized and cropped image as its outputs.
+
+### NumberPlateDetection
+This project uses a Cascade Classifier for number plate detection. A box is then drawn to around the number plate to show what it is detecting
+
+### Perspective Transform
+This project uses cards in different orientations to show how to do a perspective transform such that we can change an off center image to be centered. 
+
+### Project1
+This seems to be a copy of ColorDetectionAndDraw.
+
+### ReadingImages
+This project just reads an image and shows the read image.
+
+### ReadingVideo
+This project reads and shows a video in OPENCV.
+
+### ReadingWebcam
+This project show how to capture and show a webcam in OPENCV
+
+### StackingImages
+This project shows how to stack images in OPENCV through vstack or hstack.
 ## Project Status
 complete
 
