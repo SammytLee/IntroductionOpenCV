@@ -12,3 +12,12 @@ OpenCV 4.5.1
 A webcam may be necessary for some of the projects. Videos and images included come from samples in the OPENCV repository. 
 
 ## Features
+### Basic Functions
+ This project uses the lena.jpg image to show the differences between some of the image processing filters available to OPENCV these include:
+ * BGR to GRAY
+ * Gaussian Blur
+ * Canny Edge Detection
+ * Dilation
+ * Erosion
+
+### 
